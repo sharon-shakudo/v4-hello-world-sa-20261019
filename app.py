@@ -11,7 +11,7 @@ PORT = int(os.environ.get("PORT", "8787"))
 HOST = os.environ.get("HOST", "0.0.0.0")
 APP_VERSION = "1.0.0"
 BUILD_MARKER = os.environ.get("BUILD_MARKER", "v4-integration-test")
-HEADING = os.environ.get("HEADING", "Hello World")
+HEADING = os.environ.get("HEADING", "Hello World v2")
 
 
 def revision():
